@@ -1,0 +1,152 @@
+2018-05-20 13:36:35 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `date` =  :date<hr/>Params: <br/>array (
+  ':date' => '22222222',
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 34; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-20 13:37:12 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `date` =  :date<hr/>Params: <br/>array (
+  ':date' => '22222222',
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 34; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-20 13:37:47 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `num` =  :num<hr/>Params: <br/>array (
+  ':num' => '22222222',
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 34; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-20 13:37:48 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `num` =  :num<hr/>Params: <br/>array (
+  ':num' => '22222222',
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 34; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-20 13:39:19 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `type` =  :type<hr/>Params: <br/>array (
+  ':type' => '1',
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 34; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-20 13:39:20 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `type` =  :type<hr/>Params: <br/>array (
+  ':type' => '1',
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 34; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-20 13:43:56 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_` SET `type` =  :type<hr/>Params: <br/>array (
+  ':type' => '1',
+)<hr/>SQL Error: <br/>Table 'shop.ims_' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 35; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-20 13:43:57 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_` SET `type` =  :type<hr/>Params: <br/>array (
+  ':type' => '1',
+)<hr/>SQL Error: <br/>Table 'shop.ims_' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 35; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-20 13:45:05 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date , `id` =  :id<hr/>Params: <br/>array (
+  ':peoples' => 1,
+  ':num' => 1,
+  ':content' => '备注',
+  ':type' => 1,
+  ':date' => 1526795105,
+  ':id' => 11,
+)<hr/>SQL Error: <br/>Table 'shop.ims_' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 30; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-20 13:45:06 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date , `id` =  :id<hr/>Params: <br/>array (
+  ':peoples' => 1,
+  ':num' => 1,
+  ':content' => '备注',
+  ':type' => 1,
+  ':date' => 1526795106,
+  ':id' => 11,
+)<hr/>SQL Error: <br/>Table 'shop.ims_' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 30; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-20 13:54:38 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_` SET <hr/>Params: <br/>NULL<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 105; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 30; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-20 13:55:07 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET <hr/>Params: <br/>NULL<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 105; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 30; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-20 13:55:08 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET <hr/>Params: <br/>NULL<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 105; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 30; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-20 13:56:44 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET <hr/>Params: <br/>NULL<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 105; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 30; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-20 13:56:45 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET <hr/>Params: <br/>NULL<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 105; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 30; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-20 13:56:46 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET <hr/>Params: <br/>NULL<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 105; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 30; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-20 13:56:46 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET <hr/>Params: <br/>NULL<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 105; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 30; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-20 13:56:46 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET <hr/>Params: <br/>NULL<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 105; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 30; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-20 13:57:19 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET <hr/>Params: <br/>NULL<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 105; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 30; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-20 13:57:21 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET <hr/>Params: <br/>NULL<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 105; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 30; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-20 13:57:56 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date<hr/>Params: <br/>array (
+  ':peoples' => 1,
+  ':num' => 1,
+  ':content' => '备注',
+  ':type' => 1,
+  ':date' => 1526795876,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 29; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-20 13:57:58 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date<hr/>Params: <br/>array (
+  ':peoples' => 1,
+  ':num' => 1,
+  ':content' => '备注',
+  ':type' => 1,
+  ':date' => 1526795878,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 29; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+

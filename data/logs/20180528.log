@@ -1,0 +1,104 @@
+2018-05-28 14:47:26 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 89; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-28 14:49:47 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 89; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-28 14:52:52 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 89; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-28 14:53:14 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 89; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-28 14:55:50 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 89; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-28 14:56:10 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 89; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-28 14:58:43 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 89; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-28 14:59:36 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 89; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-28 16:34:46 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 89; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-28 17:34:59 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 89; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-28 18:06:03 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 89; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-28 18:07:58 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 89; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-28 18:10:13 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 89; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+

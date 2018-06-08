@@ -1,0 +1,170 @@
+2018-05-11 16:34:02 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_cart` WHERE  storeid=:storeid AND from_user=:from_user AND weid=:weid and tablesid=:tablesid<hr/>Params: <br/>array (
+  ':storeid' => 37,
+  ':from_user' => 'oiZGj1Ar0RDKYgtI-wD3y6pvHwN4',
+  ':weid' => 4,
+  ':tablesid' => 280,
+)<hr/>SQL Error: <br/>Unknown column 'tablesid' in 'where clause'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/mindex.inc.php; line: 230; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-11 16:34:16 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_cart` WHERE  storeid=:storeid AND from_user=:from_user AND weid=:weid and tablesid=:tablesid<hr/>Params: <br/>array (
+  ':storeid' => 37,
+  ':from_user' => 'oiZGj1Ar0RDKYgtI-wD3y6pvHwN4',
+  ':weid' => 4,
+  ':tablesid' => 280,
+)<hr/>SQL Error: <br/>Unknown column 'tablesid' in 'where clause'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/mindex.inc.php; line: 230; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-11 16:34:20 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_cart` WHERE  storeid=:storeid AND from_user=:from_user AND weid=:weid and tablesid=:tablesid<hr/>Params: <br/>array (
+  ':storeid' => 37,
+  ':from_user' => 'oiZGj1Ar0RDKYgtI-wD3y6pvHwN4',
+  ':weid' => 4,
+  ':tablesid' => 280,
+)<hr/>SQL Error: <br/>Unknown column 'tablesid' in 'where clause'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/mindex.inc.php; line: 230; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-11 16:34:32 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_cart` WHERE  storeid=:storeid AND from_user=:from_user AND weid=:weid and tablesid=:tablesid<hr/>Params: <br/>array (
+  ':storeid' => 37,
+  ':from_user' => 'oiZGj1Ar0RDKYgtI-wD3y6pvHwN4',
+  ':weid' => 4,
+  ':tablesid' => 280,
+)<hr/>SQL Error: <br/>Unknown column 'tablesid' in 'where clause'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/mindex.inc.php; line: 230; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-11 16:34:32 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_cart` WHERE  storeid=:storeid AND from_user=:from_user AND weid=:weid and tablesid=:tablesid<hr/>Params: <br/>array (
+  ':storeid' => 37,
+  ':from_user' => 'oiZGj1Ar0RDKYgtI-wD3y6pvHwN4',
+  ':weid' => 4,
+  ':tablesid' => 280,
+)<hr/>SQL Error: <br/>Unknown column 'tablesid' in 'where clause'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/mindex.inc.php; line: 230; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-11 16:34:35 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_cart` WHERE  storeid=:storeid AND from_user=:from_user AND weid=:weid and tablesid=:tablesid<hr/>Params: <br/>array (
+  ':storeid' => 37,
+  ':from_user' => 'oiZGj1Ar0RDKYgtI-wD3y6pvHwN4',
+  ':weid' => 4,
+  ':tablesid' => 281,
+)<hr/>SQL Error: <br/>Unknown column 'tablesid' in 'where clause'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/mindex.inc.php; line: 230; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-11 16:34:36 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_cart` WHERE  storeid=:storeid AND from_user=:from_user AND weid=:weid and tablesid=:tablesid<hr/>Params: <br/>array (
+  ':storeid' => 37,
+  ':from_user' => 'oiZGj1Ar0RDKYgtI-wD3y6pvHwN4',
+  ':weid' => 4,
+  ':tablesid' => 281,
+)<hr/>SQL Error: <br/>Unknown column 'tablesid' in 'where clause'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/mindex.inc.php; line: 230; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-11 16:34:36 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_cart` WHERE  storeid=:storeid AND from_user=:from_user AND weid=:weid and tablesid=:tablesid<hr/>Params: <br/>array (
+  ':storeid' => 37,
+  ':from_user' => 'oiZGj1Ar0RDKYgtI-wD3y6pvHwN4',
+  ':weid' => 4,
+  ':tablesid' => 281,
+)<hr/>SQL Error: <br/>Unknown column 'tablesid' in 'where clause'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/mindex.inc.php; line: 230; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-11 16:34:37 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_cart` WHERE  storeid=:storeid AND from_user=:from_user AND weid=:weid and tablesid=:tablesid<hr/>Params: <br/>array (
+  ':storeid' => 37,
+  ':from_user' => 'oiZGj1Ar0RDKYgtI-wD3y6pvHwN4',
+  ':weid' => 4,
+  ':tablesid' => 281,
+)<hr/>SQL Error: <br/>Unknown column 'tablesid' in 'where clause'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/mindex.inc.php; line: 230; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-11 16:34:37 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_cart` WHERE  storeid=:storeid AND from_user=:from_user AND weid=:weid and tablesid=:tablesid<hr/>Params: <br/>array (
+  ':storeid' => 37,
+  ':from_user' => 'oiZGj1Ar0RDKYgtI-wD3y6pvHwN4',
+  ':weid' => 4,
+  ':tablesid' => 281,
+)<hr/>SQL Error: <br/>Unknown column 'tablesid' in 'where clause'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/mindex.inc.php; line: 230; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-11 16:34:37 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_cart` WHERE  storeid=:storeid AND from_user=:from_user AND weid=:weid and tablesid=:tablesid<hr/>Params: <br/>array (
+  ':storeid' => 37,
+  ':from_user' => 'oiZGj1Ar0RDKYgtI-wD3y6pvHwN4',
+  ':weid' => 4,
+  ':tablesid' => 281,
+)<hr/>SQL Error: <br/>Unknown column 'tablesid' in 'where clause'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/mindex.inc.php; line: 230; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-11 16:34:37 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_cart` WHERE  storeid=:storeid AND from_user=:from_user AND weid=:weid and tablesid=:tablesid<hr/>Params: <br/>array (
+  ':storeid' => 37,
+  ':from_user' => 'oiZGj1Ar0RDKYgtI-wD3y6pvHwN4',
+  ':weid' => 4,
+  ':tablesid' => 281,
+)<hr/>SQL Error: <br/>Unknown column 'tablesid' in 'where clause'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/mindex.inc.php; line: 230; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-11 16:34:37 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_cart` WHERE  storeid=:storeid AND from_user=:from_user AND weid=:weid and tablesid=:tablesid<hr/>Params: <br/>array (
+  ':storeid' => 37,
+  ':from_user' => 'oiZGj1Ar0RDKYgtI-wD3y6pvHwN4',
+  ':weid' => 4,
+  ':tablesid' => 281,
+)<hr/>SQL Error: <br/>Unknown column 'tablesid' in 'where clause'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/mindex.inc.php; line: 230; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-11 16:34:38 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_cart` WHERE  storeid=:storeid AND from_user=:from_user AND weid=:weid and tablesid=:tablesid<hr/>Params: <br/>array (
+  ':storeid' => 37,
+  ':from_user' => 'oiZGj1Ar0RDKYgtI-wD3y6pvHwN4',
+  ':weid' => 4,
+  ':tablesid' => 281,
+)<hr/>SQL Error: <br/>Unknown column 'tablesid' in 'where clause'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/mindex.inc.php; line: 230; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-11 16:35:04 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_cart` WHERE  storeid=:storeid AND from_user=:from_user AND weid=:weid and tablesid=:tablesid<hr/>Params: <br/>array (
+  ':storeid' => 37,
+  ':from_user' => 'oiZGj1Ar0RDKYgtI-wD3y6pvHwN4',
+  ':weid' => 4,
+  ':tablesid' => 281,
+)<hr/>SQL Error: <br/>Unknown column 'tablesid' in 'where clause'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/mindex.inc.php; line: 230; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-11 16:39:40 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_cart` WHERE  storeid=:storeid AND from_user=:from_user AND weid=:weid AND tablesid=:tablesid<hr/>Params: <br/>array (
+  ':storeid' => 37,
+  ':from_user' => 'oiZGj1Ar0RDKYgtI-wD3y6pvHwN4',
+  ':weid' => 4,
+  ':tablesid' => 281,
+)<hr/>SQL Error: <br/>Unknown column 'tablesid' in 'where clause'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/mindex.inc.php; line: 230; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-11 16:39:54 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_cart` WHERE  storeid=:storeid AND from_user=:from_user AND weid=:weid AND tablesid=:tablesid<hr/>Params: <br/>array (
+  ':storeid' => 37,
+  ':from_user' => 'oiZGj1Ar0RDKYgtI-wD3y6pvHwN4',
+  ':weid' => 4,
+  ':tablesid' => 281,
+)<hr/>SQL Error: <br/>Unknown column 'tablesid' in 'where clause'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/mindex.inc.php; line: 230; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+

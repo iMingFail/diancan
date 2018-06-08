@@ -1,0 +1,314 @@
+2018-05-18 19:17:38 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date<hr/>Params: <br/>array (
+  ':peoples' => 2,
+  ':num' => 1,
+  ':content' => '备注透雨',
+  ':type' => 1,
+  ':date' => 1526642258,
+)<hr/>SQL Error: <br/>Table 'shop.ims_' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 25; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 19:18:21 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date<hr/>Params: <br/>array (
+  ':peoples' => 2,
+  ':num' => 1,
+  ':content' => '备注透雨',
+  ':type' => 1,
+  ':date' => 1526642301,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 25; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 19:18:26 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date<hr/>Params: <br/>array (
+  ':peoples' => 1,
+  ':num' => 1,
+  ':content' => '备注344334',
+  ':type' => 2,
+  ':date' => 1526642306,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 25; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 19:18:59 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date<hr/>Params: <br/>array (
+  ':peoples' => 1,
+  ':num' => 1,
+  ':content' => '备注344334',
+  ':type' => 2,
+  ':date' => 1526642339,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 26; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 19:19:02 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date<hr/>Params: <br/>array (
+  ':peoples' => 1,
+  ':num' => 1,
+  ':content' => '备注',
+  ':type' => 1,
+  ':date' => 1526642342,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 26; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 19:19:16 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date<hr/>Params: <br/>array (
+  ':peoples' => 1,
+  ':num' => 1,
+  ':content' => '备注',
+  ':type' => 1,
+  ':date' => 1526642356,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 26; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 19:20:34 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date<hr/>Params: <br/>array (
+  ':peoples' => 1,
+  ':num' => 1,
+  ':content' => '备注',
+  ':type' => 1,
+  ':date' => 1526642434,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 26; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 19:20:37 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date<hr/>Params: <br/>array (
+  ':peoples' => 1,
+  ':num' => 1,
+  ':content' => '备注',
+  ':type' => 1,
+  ':date' => 1526642437,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 26; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 19:21:16 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date<hr/>Params: <br/>array (
+  ':peoples' => 1,
+  ':num' => 1,
+  ':content' => '备注',
+  ':type' => 1,
+  ':date' => 1526642476,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 26; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 19:21:35 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date<hr/>Params: <br/>array (
+  ':peoples' => 1,
+  ':num' => 1,
+  ':content' => '备注',
+  ':type' => 1,
+  ':date' => 1526642495,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 26; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 19:21:57 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date<hr/>Params: <br/>array (
+  ':peoples' => 1,
+  ':num' => 1,
+  ':content' => '备注',
+  ':type' => 1,
+  ':date' => '',
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 26; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 19:22:36 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date<hr/>Params: <br/>array (
+  ':peoples' => '1',
+  ':num' => '1',
+  ':content' => '备注',
+  ':type' => '1',
+  ':date' => 1526642556,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 26; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 19:22:38 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date<hr/>Params: <br/>array (
+  ':peoples' => '1',
+  ':num' => '1',
+  ':content' => '备注',
+  ':type' => '1',
+  ':date' => 1526642558,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 26; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 19:22:52 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date<hr/>Params: <br/>array (
+  ':peoples' => 1,
+  ':num' => 1,
+  ':content' => '备注',
+  ':type' => 1,
+  ':date' => 1526642572,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 26; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 19:23:14 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date<hr/>Params: <br/>array (
+  ':peoples' => 1,
+  ':num' => 1,
+  ':content' => '备注',
+  ':type' => 1,
+  ':date' => 1526642594,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 26; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 19:23:34 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date<hr/>Params: <br/>array (
+  ':peoples' => 1,
+  ':num' => 1,
+  ':content' => '备注',
+  ':type' => 1,
+  ':date' => 1526642614,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 26; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 19:25:09 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date<hr/>Params: <br/>array (
+  ':peoples' => 1,
+  ':num' => 1,
+  ':content' => '备注',
+  ':type' => 1,
+  ':date' => 1526642709,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 26; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 19:26:42 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date<hr/>Params: <br/>array (
+  ':peoples' => 1,
+  ':num' => 1,
+  ':content' => '备注',
+  ':type' => 1,
+  ':date' => 1526642802,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 26; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 19:26:56 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date<hr/>Params: <br/>array (
+  ':peoples' => 1,
+  ':num' => 1,
+  ':content' => '备注',
+  ':type' => 1,
+  ':date' => 1526642816,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 26; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 19:26:58 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date<hr/>Params: <br/>array (
+  ':peoples' => 1,
+  ':num' => 1,
+  ':content' => '备注',
+  ':type' => 1,
+  ':date' => 1526642818,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 26; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 22:22:30 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date<hr/>Params: <br/>array (
+  ':peoples' => 1,
+  ':num' => 1,
+  ':content' => '备注',
+  ':type' => 1,
+  ':date' => 1526653350,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 26; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 22:22:37 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date<hr/>Params: <br/>array (
+  ':peoples' => 1,
+  ':num' => 1,
+  ':content' => '备注',
+  ':type' => 1,
+  ':date' => 1526653357,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 26; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 22:23:18 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date<hr/>Params: <br/>array (
+  ':peoples' => 1,
+  ':num' => 1,
+  ':content' => '备注',
+  ':type' => 1,
+  ':date' => 1526653398,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 26; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 22:26:21 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date<hr/>Params: <br/>array (
+  ':peoples' => 1,
+  ':num' => 1,
+  ':content' => '备注',
+  ':type' => 1,
+  ':date' => 1526653581,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 26; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 22:27:58 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `date` =  :date<hr/>Params: <br/>array (
+  ':date' => 1526653678,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 26; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 22:28:28 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `num` =  :num<hr/>Params: <br/>array (
+  ':num' => 1,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 26; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 22:30:17 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date<hr/>Params: <br/>array (
+  ':peoples' => 1,
+  ':num' => 1,
+  ':content' => '备注',
+  ':type' => 1,
+  ':date' => 1526653817,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 26; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 22:30:20 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `peoples` =  :peoples , `num` =  :num , `content` =  :content , `type` =  :type , `date` =  :date<hr/>Params: <br/>array (
+  ':peoples' => 1,
+  ':num' => 1,
+  ':content' => '备注',
+  ':type' => 1,
+  ':date' => 1526653820,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 26; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 22:31:09 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `num` =  :num<hr/>Params: <br/>array (
+  ':num' => 11,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 27; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-18 22:31:21 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_ims_weisrc_dish_yuyue` SET `id` =  :id<hr/>Params: <br/>array (
+  ':id' => 11,
+)<hr/>SQL Error: <br/>Table 'shop.ims_ims_weisrc_dish_yuyue' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 27; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+

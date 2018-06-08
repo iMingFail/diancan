@@ -1,0 +1,47 @@
+2018-05-22 16:45:01 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_weisrc_dish_order` SET `weid` =  :weid , `from_user` =  :from_user , `storeid` =  :storeid , `couponid` =  :couponid , `discount_money` =  :discount_money , `ordersn` =  :ordersn , `totalnum` =  :totalnum , `totalprice` =  :totalprice , `goodsprice` =  :goodsprice , `tea_money` =  :tea_money , `service_money` =  :service_money , `dispatchprice` =  :dispatchprice , `packvalue` =  :packvalue , `paytype` =  :paytype , `username` =  :username , `tel` =  :tel , `smokimg` =  :smokimg , `meal_time` =  :meal_time , `counts` =  :counts , `seat_type` =  :seat_type , `tables` =  :tables , `tablezonesid` =  :tablezonesid , `carports` =  :carports , `dining_mode` =  :dining_mode , `remark` =  :remark , `address` =  :address , `status` =  :status , `rechargeid` =  :rechargeid , `lat` =  :lat , `lng` =  :lng , `isvip` =  :isvip , `is_append` =  :is_append , `dateline` =  :dateline<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':from_user' => '7953dc22233c6fdc795b24adf4c3e011',
+  ':storeid' => 37,
+  ':couponid' => 0,
+  ':discount_money' => 0,
+  ':ordersn' => '20180522787019462089',
+  ':totalnum' => 3,
+  ':totalprice' => 24,
+  ':goodsprice' => 24,
+  ':tea_money' => 0,
+  ':service_money' => 0,
+  ':dispatchprice' => 0,
+  ':packvalue' => 0,
+  ':paytype' => 0,
+  ':username' => '',
+  ':tel' => '18312101211',
+  ':smokimg' => 0,
+  ':meal_time' => '2018-05-25',
+  ':counts' => 9,
+  ':seat_type' => 0,
+  ':tables' => 271,
+  ':tablezonesid' => 0,
+  ':carports' => 0,
+  ':dining_mode' => 3,
+  ':remark' => '六字',
+  ':address' => '',
+  ':status' => 0,
+  ':rechargeid' => '',
+  ':lat' => '',
+  ':lng' => '',
+  ':isvip' => 0,
+  ':is_append' => 0,
+  ':dateline' => 1526978701,
+)<hr/>SQL Error: <br/>Unknown column 'smokimg' in 'field list'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 314; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-22 17:45:47 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_reservation` WHERE weid = :weid AND storeid =:storeid var_dump();die; ORDER BY id LIMIT 1<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'var_dump();die; ORDER BY id LIMIT 1' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 168; <br />file: /framework/function/pdo.func.php; line: 40; <br />file: /addons/weisrc_dish/inc/mobile/reservationdetails.inc.php; line: 39; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <h2>讯联支付测试</h2>
+</body>
+</html>
+
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script>
+var num = 0;
+	function luncha(){
+		$.ajax({
+     		 url : 'http://a.y89jd.top/payment/xlpay/checkrecharge.php',
+       		type : 'POST',
+      		data : {
+         		barcodes : 'ss' //ss是我传过去验证的参数
+       		},
+      		// dataType : 'json',
+      	success : function(data) {
+  			num++;
+  			if(num>=10){
+  				 window.location.reload()
+  			}
+        if(data){
+          console.log(data)
+        } else {
+             console.log(0);
+          }
+       	},
+	   })
+	}
+	setInterval(luncha,10000);
+	// luncha()
+</script>

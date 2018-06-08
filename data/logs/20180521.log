@@ -1,0 +1,21 @@
+2018-05-21 12:07:35 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM  ims_weisrc_dish_stores WHERE storeid = :storeid <hr/>Params: <br/>array (
+  ':storeid' => '37',
+)<hr/>SQL Error: <br/>Unknown column 'storeid' in 'where clause'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 48; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 33; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-21 13:52:06 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM  ims_weisrc_dish_stores WHERE storeid = :storeid <hr/>Params: <br/>array (
+  ':storeid' => '37',
+)<hr/>SQL Error: <br/>Unknown column 'storeid' in 'where clause'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 48; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 33; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-05-21 13:53:59 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM  ims_weisrc_dish_stores WHERE storeid = :storeid <hr/>Params: <br/>array (
+  ':storeid' => '37',
+)<hr/>SQL Error: <br/>Unknown column 'storeid' in 'where clause'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 49; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 34; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+

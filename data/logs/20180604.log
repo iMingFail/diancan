@@ -1,0 +1,1060 @@
+2018-06-04 12:41:35 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 90; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 12:42:18 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 90; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 12:44:03 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 90; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 14:04:09 SQL Error :
+------------
+String:
+SQL: <br/>UPDATE `ims_weisrc_dish_print_setting` SET `weid` =  :weid , `storeid` =  :storeid , `title` =  :title , `type` =  :type , `member_code` =  :member_code , `api_key` =  :api_key , `feyin_key` =  :feyin_key , `print_status` =  :print_status , `print_type` =  :print_type , `print_usr` =  :print_usr , `print_nums` =  :print_nums , `print_top` =  :print_top , `print_bottom` =  :print_bottom , `qrcode_status` =  :qrcode_status , `qrcode_url` =  :qrcode_url , `is_print_all` =  :is_print_all , `yilian_type` =  :yilian_type , `print_label` =  :print_label , `is_meal` =  :is_meal , `is_delivery` =  :is_delivery , `is_snack` =  :is_snack , `is_shouyin` =  :is_shouyin , `is_reservation` =  :is_reservation , `position_type` =  :position_type , `api_type` =  :api_type , `bprint_usr` =  :bprint_usr , `bfeyin_key` =  :bfeyin_key WHERE `weid` =  :__weid AND `storeid` =  :__storeid AND `id` =  :__id<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+  ':title' => '飞蛾打印机',
+  ':type' => 'feie',
+  ':member_code' => '',
+  ':api_key' => '',
+  ':feyin_key' => 'h4y574xe',
+  ':print_status' => '1',
+  ':print_type' => '0',
+  ':print_usr' => '917512011',
+  ':print_nums' => 1,
+  ':print_top' => '',
+  ':print_bottom' => '',
+  ':qrcode_status' => 0,
+  ':qrcode_url' => 'http://203.195.151.247/app/index.php?i=4&c=entry&storeid=37&mode=1&tablesid=284&append=0&do=mindex&m=weisrc_dish&p=1',
+  ':is_print_all' => 1,
+  ':yilian_type' => 1,
+  ':print_label' => '',
+  ':is_meal' => 1,
+  ':is_delivery' => 1,
+  ':is_snack' => 0,
+  ':is_shouyin' => 1,
+  ':is_reservation' => 1,
+  ':position_type' => 0,
+  ':api_type' => 0,
+  ':bprint_usr' => '33',
+  ':bfeyin_key' => '222',
+  ':__weid' => 4,
+  ':__storeid' => 37,
+  ':__id' => 28,
+)<hr/>SQL Error: <br/>Unknown column 'bprint_usr' in 'field list'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 279; <br />file: /framework/function/pdo.func.php; line: 66; <br />file: /addons/weisrc_dish/inc/web/printsetting.inc.php; line: 92; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/index.php; line: 184; <br />
+
+2018-06-04 15:04:50 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 90; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 15:04:52 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('828') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1305; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 382; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 15:26:37 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 90; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 15:26:44 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 90; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 15:26:58 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 90; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 15:27:03 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 90; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 15:29:33 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 90; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 15:34:46 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 90; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 17:02:40 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 94; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 17:02:50 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 94; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 17:03:26 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 94; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 17:03:30 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1307; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 393; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 17:03:52 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 94; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 17:04:04 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1307; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 393; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 17:04:47 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 94; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 17:04:52 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1307; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 393; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 17:31:18 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 94; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 17:31:24 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1307; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 393; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 17:32:50 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1307; <br />file: /addons/weisrc_dish/inc/web/order.inc.php; line: 397; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/index.php; line: 184; <br />
+
+2018-06-04 17:34:52 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 94; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 17:35:27 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 94; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 17:35:48 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('828') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1307; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 393; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 17:39:03 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 94; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 17:39:17 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('828') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1307; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 393; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 17:44:04 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 94; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 17:57:07 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 17:57:59 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 17:58:00 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:03:54 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('828') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1306; <br />file: /addons/weisrc_dish/inc/web/order.inc.php; line: 397; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/index.php; line: 184; <br />
+
+2018-06-04 18:04:53 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('828') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1306; <br />file: /addons/weisrc_dish/inc/web/order.inc.php; line: 397; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/index.php; line: 184; <br />
+
+2018-06-04 18:22:13 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:22:16 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('828') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1309; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 393; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:23:06 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:23:09 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('828') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1309; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 393; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:27:31 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:27:34 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1309; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 393; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:29:03 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:29:06 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1304; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 393; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:32:03 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:32:06 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('828') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1311; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 393; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:32:53 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:32:56 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('828') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1311; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 393; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:34:30 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:34:35 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:34:46 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('828') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1311; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 440; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:35:12 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:35:26 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('828') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1311; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 440; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:37:42 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:38:11 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:40:50 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:42:52 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:42:53 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:43:04 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:43:19 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:44:15 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:52:21 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1312; <br />file: /addons/weisrc_dish/inc/web/order.inc.php; line: 397; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/index.php; line: 184; <br />
+
+2018-06-04 18:53:26 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:58:08 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:58:08 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:58:10 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('828') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1307; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 393; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:59:23 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 18:59:26 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1307; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 366; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:00:17 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:00:20 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('828') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1307; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 393; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:01:16 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:01:19 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1307; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 393; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:01:30 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1307; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 393; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:01:36 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:01:38 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:02:20 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:02:22 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:02:24 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('828') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1307; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 393; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:03:15 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:03:38 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:03:40 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('823','822') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1308; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 393; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:04:08 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('822') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1308; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 393; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:04:11 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:04:25 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:04:28 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('822') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1308; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 393; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:06:13 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:07:06 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:07:08 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('822') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1308; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 393; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:08:15 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:08:17 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1308; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 393; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:08:46 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:08:48 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1308; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 393; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:09:40 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:10:14 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:10:14 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:10:15 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1308; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 392; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:11:17 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:11:19 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1308; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 392; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:11:53 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1308; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:11:56 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1308; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:12:10 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1308; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:12:16 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1308; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:12:17 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1308; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:12:17 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1308; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:12:23 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1308; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:12:30 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1308; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:12:30 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1308; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:12:38 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1308; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:12:39 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1308; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:12:48 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1307; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:12:49 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1307; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:13:04 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1309; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:13:05 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1309; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:13:05 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1309; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:13:13 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1309; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:13:21 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1309; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:13:36 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1310; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:13:37 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1310; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:13:47 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1310; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:13:57 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1311; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:14:09 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1310; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:14:17 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1310; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:14:27 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1310; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:14:50 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1310; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:15:10 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:15:50 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:15:51 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('828') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1310; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 392; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:16:26 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:16:27 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:16:28 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1310; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 392; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:17:07 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1310; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:18:08 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1311; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:18:09 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1311; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:18:23 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1312; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:18:24 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1312; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:18:33 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1311; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:20:22 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1313; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:20:32 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:20:40 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:21:10 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:21:12 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('828','827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1313; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 392; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:24:16 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:27:25 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:27:27 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1313; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 392; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:27:56 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:28:04 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:28:13 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('827') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1313; <br />file: /addons/weisrc_dish/inc/mobile/yuyue.inc.php; line: 8; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:28:35 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shop.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-04 19:28:36 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_goods`  WHERE id IN ('828') AND labelid IN()<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/site.php; line: 1313; <br />file: /addons/weisrc_dish/inc/mobile/addtoorder.inc.php; line: 392; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+

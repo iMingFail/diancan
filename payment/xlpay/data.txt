@@ -1,0 +1,1 @@
+{"backUrl":"http:\/\/a.y89jd.top\/xlpay\/back.php","busicd":"WPAY","charset":"utf-8","chcd":"YSY","inscd":"93911888","mchntid":"391581758120001","orderNum":"20180324780534087856","paylimit":"credit","signType":"SHA256","terminalid":"00000001","txamt":"000000000100","version":"2.2","sign":"8fa061ebba769c264d8fdbf7751000cddc1d2527d97aa7dc2a0787aabd262e42"}

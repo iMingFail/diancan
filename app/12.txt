@@ -1,0 +1,1 @@
+http://localhost/payment/xlpay/back.phpWPAYutf-8WXPhttp://localhost/payment/xlpay/come.php10000000000020320180427225564604099creditSHA256101300010000000050002.218af7c391eb3f9b1dc2c4233652ad92c9ba3c441cb338b91a6491f2af1c09001

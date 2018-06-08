@@ -1,0 +1,72 @@
+2018-06-08 12:08:14 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shopwp7.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-08 12:10:35 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shopwp7.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-08 12:13:59 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shopwp7.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-08 12:22:46 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shopwp7.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-08 14:56:23 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shopwp7.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-08 15:06:35 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shopwp7.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-08 15:10:26 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shopwp7.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-08 15:27:08 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shopwp7.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+
+2018-06-08 15:27:54 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_weisrc_dish_dispatcharea` WHERE weid=:weid AND storeid=:storeid ORDER BY id ASC<hr/>Params: <br/>array (
+  ':weid' => 4,
+  ':storeid' => 37,
+)<hr/>SQL Error: <br/>Table 'shopwp7.ims_weisrc_dish_dispatcharea' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/weisrc_dish/inc/mobile/orders.inc.php; line: 96; <br />file: /framework/class/account.class.php; line: 1077; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/source/entry/site.ctrl.php; line: 12; <br />file: /app/index.php; line: 115; <br />
+

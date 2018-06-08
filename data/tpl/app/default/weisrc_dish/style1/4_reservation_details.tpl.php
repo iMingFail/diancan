@@ -1,0 +1,199 @@
+<?php defined('IN_IA') or exit('Access Denied');?><!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+<title>预约</title>
+ <meta content="target-densitydpi=320,width=640,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="applicable-device" content="mobile">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <link rel="stylesheet" type="text/css" href="<?php  echo $this->cur_mobile_path?>/css/api.css"/>
+    <link rel="stylesheet" type="text/css" href="<?php  echo $this->cur_mobile_path?>/css/common.css"/>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="<?php  echo $this->cur_mobile_path?>/css/reservation_details.css"/>
+    <link rel="stylesheet" type="text/css" href="<?php  echo $this->cur_mobile_path?>/css/fakeLoader.css">
+    <script src="<?php  echo $this->cur_mobile_path?>/script/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?ak=qen1OGw9ddzoDQrTX35gote2&v=2.0&services=false"></script>
+    <script src="./mindex/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+<div class="fakeloader"></div>
+  <?php
+        $_GET["l"] =$_GET["l"]?$_GET["l"]:"jp";
+        $languagetxt = '../web/language_'.$_GET["l"].'.txt';
+        $languagearr = unserialize(file_get_contents($languagetxt));
+    ?>
+<div id="wrap">
+    <header class="bar bar-nav">
+        <a class="button button-link button-nav pull-left" href="javascript:" onclick="history.go(-1)" >
+            <span class="icon-left" style="background:url(./mindex/ic_back.png);margin-top：-10px"></span>
+        </a>
+
+        <h1 class="Nav " ><?php   echo $languagearr[$_GET['l'].'_yuyue'];  ?></h1>
+    </header>
+
+    <div class="content">
+
+
+         <div class="info">
+        <p class="Remarks">
+                  <em><?php   echo $languagearr[$_GET['l'].'_name'];  ?>：</em>
+                <input type="text" class="divcontent remark  username" name="username" >
+                <img src="./mindex/p.png" alt="">
+        </p>
+        <p class="Remarks" style="display:none;">
+                  <em>包厢/桌号</em>
+              <select name="tables" id="tables" >
+                   <!-- <option value="" selected="selected">请选择桌号</option> -->
+                        <?php  if(is_array($tables)) { foreach($tables as $item) { ?>
+                        <option value="<?php  echo $item['id'];?>"><?php  echo $item['title'];?></option>
+                        <?php  } } ?>
+              </select>
+                <img src="./mindex/p.png" alt="">
+        </p>
+
+
+        <p class="Remarks">
+                  <em><?php   echo $languagearr[$_GET['l'].'_tel'];  ?>：</em>
+                <input type="text" class="divcontent remark tel" name="tel"  >
+                <img src="./mindex/tells.png" alt="">
+        </p>
+        <p class="Remarks">
+                  <em><?php   echo $languagearr[$_GET['l'].'_time'];  ?>：</em>
+           <!--    <select name="times" class ="times">
+
+                 <?php  if(is_array($dates)) { foreach($dates as $date) { ?>
+                <option value="<?php  echo $date;?>" <?php  if($date==$select_date) { ?>selected="selected"<?php  } ?>><?php  echo $date;?></option>
+                <?php  } } ?>
+              </select > -->
+
+                <input type="text" class="divcontent remark times" name="time" >
+                <img src="./mindex/times.png" alt="">
+        </p>
+        <p class="Remarks">
+                  <em><?php   echo $languagearr[$_GET['l'].'_people'];  ?>：</em>
+                   <select  name="peoples" class="peoples">
+                         <?php  for($i = 1;$i<=10;$i++){?>
+                                  <option value="<?php  echo $i;?>" ><?php  echo $i;?>
+                                    <?php
+                                      $_GET["l"] =$_GET["l"]?$_GET["l"]:"jp";
+                                   $languagetxt = '../web/language_'.$_GET["l"].'.txt';
+                                   $languagearr = unserialize(file_get_contents($languagetxt));
+                                    echo $languagearr[$_GET['l'].'_p'];;?>
+                                  </option>
+                              <?php  }?>
+                                <option value="11" ><?php  echo $languagearr[$_GET['l'].'_more'];?></option>
+                </select>
+                <!-- <input type="text" class="divcontent remark peoples" class="peoples" > -->
+                <img src="./mindex/dpople.png" alt="" >
+        </p>
+        <p class="Remarks">
+                  <em><?php   echo $languagearr[$_GET['l'].'_smoke'];  ?>：</em>
+                <input type="text" class="divcontent remark smoking" name="smoking" value="1" hidden>
+                <img src="./mindex/nosmoking.png" alt="">
+                <img src="./mindex/slide1.png" alt="" class="styles" style="width: 100px;">
+                <img src="./mindex/smoke.png" alt="">
+        </p>
+        <p class="Remarks" style="height:100px;">
+            <em style="margin-top:20px"><?php   echo $languagearr[$_GET['l'].'_remark'];  ?>：</em>
+            <textarea rows="3" cols="20" class="divcontent remark remarkss" style="width:400px;height:80px">
+</textarea>
+                <!-- <input type="text" class="divcontent remark remarkss" style="width:400px"> -->
+        </p>
+        </div>
+     <div class="divbtu addorder" style="margin-top:50px">
+                    <img src="./mindex/true.png" class="true"><?php   echo $languagearr[$_GET['l'].'_true'];  ?>
+        </div>
+</div>
+
+<div class="trueorder">
+    <div class="alert_trueorder">
+    <img src="./mindex/succ.png" alt="" class="succ">
+        <div class="alert_contents">
+            <p styled="margin-bottom:40px;height:80px;" class="con"><?php   echo $languagearr[$_GET['l'].'_true1'];  ?>?</p>
+            <p><span class="trues"><img src="./mindex/t.png" alt=""><?php   echo $languagearr[$_GET['l'].'_true2'];  ?></span><em class="cancel"><img src="./mindex/q.png" alt=""><?php   echo $languagearr[$_GET['l'].'_true3'];  ?></em></p>
+        </div>
+    </div>
+</div>
+<script >
+$(function(){
+      $(".succ").hide()
+    })
+      $(".addorder").click( function(){
+        $(".trueorder").show();
+        // $(".alert1").show();
+    })
+       $(".cancel").click(function(event) {
+        $(".trueorder").hide()
+    });
+    $(".styles").toggle(function(){
+        $(".smoking").val(2);
+        $(this).attr('src','./mindex/slide2.png')
+    },function(){
+         $(".smoking").val(1);
+        $(this).attr('src','./mindex/slide1.png')
+
+    })
+    $(".trues").click(function(){
+        if ($(".username").val() == "" || $(".nausernameme").val() == "(必填*)请输入联系人！") {
+            alert("请输入联系人！");
+            return false;
+        }
+
+        // if ($("#tables").val() == "" || $("#tables").val()) {
+        //     alert("出错了,请重新扫码！");
+        //     return false;
+        // }
+        if ($(".tel").val() == "" || $(".tel").val() == "(必填*)请输入您的电话号码！") {
+            alert("请输入您的电话号码！");
+            return false;
+        }
+        username= $('.username').val()
+        tel= $('.tel').val()
+        time= $('.times').val()
+        peoples=$('.peoples').val()
+        tables=$('#tables').val()
+        smoking=$('.smoking').val()
+        remarks= $('.remarkss').val()
+        // alert(tables);return;
+        var url = "<?php  echo $this->createMobileUrl('ReservationDetails', array('storeid' => $storeid, ), true)?>";
+       //  //     return;
+        $.ajax({
+            url: url, type: "post", timeout: "10000",
+            data: {
+                   "username":username,
+                    "tel": tel,
+                    "peoples" :peoples,
+                    "smoking": smoking,
+                    "remarks": remarks,
+                    "tables": tables,
+                    "time": time,
+                    // "timeid": <?php  echo $_GET['timeid'] ?>,
+                },
+                success: function (data) {
+                    // console.log(data);return;
+                    if(data==1){
+                        $(".succ").show()
+                         $(".alert_contents").hide();
+                         $(".alert_trueorder").css('background','none');
+                         // return;
+                         $(".alert_contents").hide()
+                        setTimeout(function(){
+                          window.location.href="/app/index.php?i=<?php  echo $_GET['i']?>&c=entry&storeid=<?php  echo $_GET['storeid']?>&mode=3&tablesid="+tables+"&append=0&do=mindex&m=weisrc_dish&p="+peoples+"&l=<?php echo $_GET[l]?$_GET[l]:'jp';?>";
+                        },888)
+
+                    }else{
+                        alert(data)
+                    }
+
+
+                }
+       })
+
+    })
+
+</script>
+    </body>
+</html>

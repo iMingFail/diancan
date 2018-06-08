@@ -1,0 +1,1 @@
+"{\"busicd\":\"REFD\",\"charset\":\"utf-8\",\"inscd\":\"93911888\",\"mchntid\":\"391581758120002\",\"orderNum\":\"15247241234406\",\"origOrderNum\":\"20180426241104638626\",\"signType\":\"SHA256\",\"terminalid\":\"00000002\",\"txamt\":\"000000000001\",\"txndir\":\"Q\",\"version\":\"2.2\",\"sign\":\"16a17c5f650331319bd2a9275fa8ca5dfea252c11e8d91726d877390b7eb1529\"}"
